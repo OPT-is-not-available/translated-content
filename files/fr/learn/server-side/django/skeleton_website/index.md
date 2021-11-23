@@ -146,11 +146,11 @@ A ceci s'ajoute :
 - Un dossier _migrations_, qui sera utilisé par django pour gérer les migrations et les modifications progressives apportées à la base de données quand des modifications seront faîtes dans les fichiers _models.py._
 - **\_\_init\_\_.py** — est un fichier vide qui indique au langage Python de considérer ce dossier comme un module Python.
 
-> **Note :** Vous pouvez constater que dans le dossier de l'application, il n'y a pas de fichier pour gérer les urls, les gabarits ou les fichiers statiques. Nouys verrons ce point un peu plus loin, ils ne sont pas systématiquement nécessaires.
+> **Note :** Vous pouvez constater que dans le dossier de l'application, il n'y a pas de fichier pour gérer les urls, les gabarits ou les fichiers statiques. Nous verrons ce point un peu plus loin, ils ne sont pas systématiquement nécessaires.
 
 ## Enregistrer l'application _catalog_
 
-Après avoir créé l'application, il est necessaire de l'enregistrée au sein du projet. Ceci permet de prendre en charge l'ensemble des éléments de l'application pour qu'ils soient pris automatiquement en charge par le quadriciel. L'enregistrement se fait dans la section `INSTALLED_APPS` en ajoutant le nom de l'application à la liste déjà présente.
+Après avoir créé l'application, il est nécessaire de l'enregistrer au sein du projet. Ceci permet de prendre en charge l'ensemble des éléments de l'application pour qu'ils soient pris automatiquement en charge par le quadriciel. L'enregistrement se fait dans la section `INSTALLED_APPS` en ajoutant le nom de l'application à la liste déjà présente.
 
 Éditez le fichier **django_projects/locallibrary/locallibrary/settings.py** et allez jusqu'à la liste `INSTALLED_APPS`. Ajoutez alors comme indiqué ci-dessous l'application à la liste.
 
@@ -174,7 +174,7 @@ Le nouvel enregistrement défini l'objet pour cette nouvelle application avec le
 
 Dès à présent, la base de données doit être décrite. Il est souvent recommandé pour minimiser une transition délicate d'utiliser la même base de données en développement et en production. La documentation concernant les [bases de données](https://docs.djangoproject.com/fr/2.2/ref/settings/#databases) prises en charge sont bien décrites sur le site du projet Django.
 
-Le système de gestion de base de données (SGBD) SQLite sera utilisé dans le projet de cette série didactique ; nous n'aurons pas d'accès concurents massifs et ce système ne requiert pas  de paramétrages complémentaires. Ci-dessous la définition dans **settings.py** est nécessaire pour utiliser ce SGBD :
+Le système de gestion de base de données (SGBD) SQLite sera utilisé dans le projet de cette série didactique ; nous n'aurons pas d'accès concurents massifs et ce système ne requiert pas de paramétrages complémentaires. Ci-dessous la définition dans **settings.py** est nécessaire pour utiliser ce SGBD :
 
 ```python
 DATABASES = {
@@ -187,7 +187,7 @@ DATABASES = {
 
 ## D'autres paramètrages du projet
 
-Le fichier **settings.py** est utilisé pour l'ensemble des paramètres du projet, mais pour le moment nous n'allons nous occuper du fuseau horaire. Le format des fuseaux horaires est le format standard en informatique ([Liste des codes - _en anglais_](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones)). Changez la variable `TIME_ZONE` de votre projet avec la chaîne appropriée à votre fuseau, par exemple :
+Le fichier **settings.py** est utilisé pour l'ensemble des paramètres du projet, mais pour le moment nous allons nous occuper du fuseau horaire. Le format des fuseaux horaires est le format standard en informatique ([Liste des codes - _en anglais_](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones)). Changez la variable `TIME_ZONE` de votre projet avec la chaîne appropriée à votre fuseau, par exemple :
 
 ```python
 TIME_ZONE = 'Europe/Paris'
