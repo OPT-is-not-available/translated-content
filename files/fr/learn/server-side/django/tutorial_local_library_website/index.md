@@ -52,7 +52,7 @@ Dans les articles qui suivent, vous allez apprendre à :
 - Manipuler les formulaires.
 - Ecrire des jeux de test pour votre application.
 - Utiliser les moyens de sécurité de Django.
-- Déployer en production vote application.
+- Déployer en production votre application.
 
 Que vous ayez déjà des connaissance sur le sujet ou que vous ayez aborder succinctement ce quadriciel, à la fin de cette série didactique, vous serez suffisamment autonome pour développer vos propres applications avec Django.
 
