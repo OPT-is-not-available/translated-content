@@ -60,7 +60,7 @@ Que vous ayez déjà des connaissance sur le sujet ou que vous ayez aborder succ
 
 La _LocalLibrary_ (Bibliothèque locale) est le nom du site web qui va être créer et qui évoluera tout au long de cette série didatcique. La finalité de ce site web est de diffuser un catalogue des livres en ligne et de permettre aux utilisateurs de le parcourir et de gérer leur propre compte.
 
-Cet exemple a été soigneusement choisi car il permet de progresser en montrant nombre de détails et abordre presque toutes les fonctionnalités de Django. De plus, cet exemple permet d'appréhender progressivement les fonctionnalités les plus importantes du quadriciel :
+Cet exemple a été soigneusement choisi car il permet de progresser en montrant nombre de détails et aborde presque toutes les fonctionnalités de Django. De plus, cet exemple permet d'appréhender progressivement les fonctionnalités les plus importantes du quadriciel :
 
 - Une première étape consistera à définir un catalogue simple qui permet aux utilisateurs de consulter les ouvrages disponibles. Cela combine les schémas classiques et les opérations communes à la plupart de ce type de sites : lire et afficher le contenu d'une base de données...
 - La progression des différents articles permettra d'étudier des fonctions plus avancées du quadriciel. Par exemple, utiliser des formulaires et permettre aux utilisateurs de réserver leurs ouvrages, ceci conduit à mettre en place et utiliser la gestion des utilisateurs et de l'authentification.
@@ -71,11 +71,11 @@ Même s'il s'agit d'un sujet extensible, son sujet de \*Bibliothèque **locale\*
 
 Au fur et à mesure, les codes et commandes à écrire seront fournis. Ils peuvent être copiés et collés à chaque étapes. Il y aura aussi des codes que vous pourrez compléter avec quelques conseils.
 
-Si vous êtes coincé, vous pourrez trouver une version totalement développée du site sur[ Github](https://github.com/mdn/django-locallibrary-tutorial) (**Anglais**).
+Si vous êtes coincé, vous pourrez trouver une version totalement développée du site sur [ Github](https://github.com/mdn/django-locallibrary-tutorial) (**Anglais**).
 
 ## Résumé
 
-Vous en savez plus sur le projet _LocalLibrary_ et ce que vous allez progressivement apprendre, il est désormais temps de créer le [squellette du projet](/fr/docs/Learn/Server-side/Django/skeleton_website) qui hébergera la bibliothèque.
+Vous en savez plus sur le projet _LocalLibrary_ et ce que vous allez progressivement apprendre, il est désormais temps de créer le [squelette du projet](/fr/docs/Learn/Server-side/Django/skeleton_website) qui hébergera la bibliothèque.
 
 {{PreviousMenuNext("Learn/Server-side/Django/development_environment", "Learn/Server-side/Django/skeleton_website", "Learn/Server-side/Django")}}
 
