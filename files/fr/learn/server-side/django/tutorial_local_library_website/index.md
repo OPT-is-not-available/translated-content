@@ -54,7 +54,7 @@ Dans les articles qui suivent, vous allez apprendre à :
 - Utiliser les moyens de sécurité de Django.
 - Déployer en production vote application.
 
-Que vous ayez déjà des connaissance sur le sujet ou que vous ayez aborder succinctement ce quadriciel, à la fin de cette série didactique, vous serez suffisamment autonome pour développer vos propres applications avec Django.
+Que vous ayez déjà des connaissance sur le sujet ou que vous ayez abordé succinctement ce quadriciel, à la fin de cette série didactique, vous serez suffisamment autonome pour développer vos propres applications avec Django.
 
 ## Le site web de la "Bibliothèque locale"
 
