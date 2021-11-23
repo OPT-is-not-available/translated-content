@@ -58,7 +58,7 @@ Que vous ayez déjà des connaissance sur le sujet ou que vous ayez aborder succ
 
 ## Le site web de la "Bibliothèque locale"
 
-La _LocalLibrary_ (Bibliothèque locale) est le nom du site web qui va être créer et qui évoluera tout au long de cette série didatcique. La finalité de ce site web est de diffuser un catalogue des livres en ligne et de permettre aux utilisateurs de le parcourir et de gérer leur propre compte.
+La _LocalLibrary_ (Bibliothèque locale) est le nom du site web qui va être créer et qui évoluera tout au long de cette série didactique. La finalité de ce site web est de diffuser un catalogue des livres en ligne et de permettre aux utilisateurs de le parcourir et de gérer leur propre compte.
 
 Cet exemple a été soigneusement choisi car il permet de progresser en montrant nombre de détails et abordre presque toutes les fonctionnalités de Django. De plus, cet exemple permet d'appréhender progressivement les fonctionnalités les plus importantes du quadriciel :
 
